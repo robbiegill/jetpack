@@ -14,7 +14,7 @@ module Jetpack
     def initialize(project_dir, user_defined_options)
       defaults = {
         'app_root'                   => File.expand_path(project_dir),
-        'java'                       => 'java',
+        'java_binary'                => 'java',
         'java_options'               => '-Xmx2048m',
         'max_concurrent_connections' => 50,
         'ruby_version'               => 1.9,
